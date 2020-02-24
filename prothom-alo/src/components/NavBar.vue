@@ -22,7 +22,7 @@
 
             <div style="width: 1px;height: 20px; margin:auto; background-color:black;"></div>
 
-            <v-btn class="navItem red--text">
+            <v-btn class="navItem redtext">
                 English
             </v-btn>
 
@@ -49,9 +49,6 @@ export default {
 </script>
 
 <style>
-.NavUnderline{
-    
-}
 .logo{
     width: 16%;
     margin-left: -35px;
@@ -72,5 +69,9 @@ export default {
 }
 .navIcn{
     border-radius: 20%;
+}
+.redtext{
+    color: #D94141 !important;
+    font-size: 10px !important;
 }
 </style>
