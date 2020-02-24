@@ -1,5 +1,16 @@
 <template>
   <v-container>
+    <v-container>
+    <v-row>
+        <v-col> 
+          <p>
+            <span> <v-icon>mdi-map-marker</v-icon> ঢাকা</span> 
+            <span> <v-icon>mdi-calendar-month</v-icon> মঙ্গলবার, ২৫ ফেব্রুয়ারি ২০২০, ১২ ফাল্গুন ১৪২৬, ৩০ জমাদিউস সানি ১৪৪১ </span> 
+            <span><v-icon>mdi-clock-outline</v-icon> আপডেট ১০ মিনিট আগে</span> 
+          </p>
+        </v-col>
+      </v-row>
+  </v-container>
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
