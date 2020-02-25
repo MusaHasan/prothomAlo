@@ -2,21 +2,24 @@
   <v-app>
     <Navbar/> 
     <v-content >
-      <HelloWorld />
+      <Date/>
+      <Body/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Date from './components/Date';
 import Navbar from './components/NavBar';
+import Body from './views/Home'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    Navbar
+    Date,
+    Navbar,
+    Body
   },
 
   data: () => ({

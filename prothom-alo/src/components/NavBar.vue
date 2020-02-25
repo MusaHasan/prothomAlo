@@ -49,15 +49,21 @@ export default {
 </script>
 
 <style>
+    @media (min-width: 1264px){
+    .container {
+        max-width: 1218px;
+        }
+    }
 .logo{
     width: 16%;
-    margin-left: -35px;
     height: fit-content;
 }
 .navbar{
     width: 100%;
     display: flex;
-    margin-left: 85px;
+    margin-left: 51px;
+    margin-bottom: -12px;
+    padding: 0px;
 }
 .navItem{
     box-shadow: none !important;
@@ -66,6 +72,7 @@ export default {
     min-width: 31px !important;
     height: 60px !important;
     font-size: 13px !important;
+    margin-top: -9px;
 }
 .navIcn{
     border-radius: 20%;
