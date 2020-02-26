@@ -2,6 +2,10 @@
   <div class="home">
     <Section1/>
     <Bangladesh/>
+    <Khela/>
+    <Binodon/>
+    <Motamot/>
+    <ChobiVideo/>
   </div>
 </template>
 
@@ -9,12 +13,20 @@
 // @ is an alias to /src
 import Section1 from '@/components/Section1.vue'
 import Bangladesh from '@/components/BangladeshSec.vue'
+import Khela from '@/components/KhelaSec.vue'
+import Binodon from '@/components/binodonSec.vue'
+import Motamot from '@/components/MotamotSec.vue'
+import ChobiVideo from '@/components/VideoSec.vue'
 
 export default {
   name: 'Home',
   components: {
     Section1,
-    Bangladesh
+    Bangladesh,
+    Khela,
+    Binodon,
+    Motamot,
+    ChobiVideo
   }
 }
 </script>

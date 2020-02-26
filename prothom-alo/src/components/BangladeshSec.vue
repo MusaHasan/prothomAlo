@@ -3,31 +3,6 @@
         <v-row class="Mrow">
             <v-col md="4">
                 <h2>সবচেয়ে</h2>
-                <!-- <v-card >
-                <v-tabs background-color="#E7E8E1" >
-                    <v-tab class="tab" @click="selectTab(1)" ><p>শেষ</p></v-tab>
-                    <v-tab class="tab" @click="selectTab(2)" ><p>আলোচিত</p></v-tab>
-                    <v-tab class="tab" @click="selectTab(3)" ><p>নির্বাচিত</p></v-tab>
-                </v-tabs>
-                <v-sheet
-                id="scrolling-techniques-3"
-                >
-                <v-container class="card">
-                    <v-row v-if="currentTab==1" class="bg-grey-light p-8">
-                        <h3>section 1 comming soon..</h3>
-                    </v-row>
-
-                    <v-row v-if="currentTab==2"   class="bg-grey-light p-8">
-                            <h3>section 2 comming soon..</h3>
-                    </v-row>
-
-                    <v-row v-if="currentTab==3" class="bg-grey-light p-8">
-                        <h3>section 3comming soon..</h3>
-                    </v-row>
-                    
-                </v-container>
-                </v-sheet>
-                </v-card> -->
                     <ul class="tabs" role="tablist">
                         <li>
                             <input type="radio" name="tabs" id="tab1" checked />
@@ -37,24 +12,33 @@
                                 role="tab" 
                                 aria-selected="true" 
                                 aria-controls="panel1" 
-                                tabindex="0">Description</label>
+                                tabindex="0">শেষ</label>
                             <div id="tab-content1" 
                                 class="tab-content" 
                                 role="tabpanel" 
                                 aria-labelledby="description" 
                                 aria-hidden="false">
                             
-                                <v-card
-                                    class="mx-auto"
-                                    max-width="344"
-                                    outlined
-                                >
-                                    <v-list-item three-line>
-                                    <v-list-item-content>
-                                        <v-list-item-title class="headline mb-1">Headline 5</v-list-item-title>
-                                    </v-list-item-content>
+                                <v-list class="pa-0" color="#F6F6F6">
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>ওয়ারেন বাফেট এত দিনে ‘স্মার্ট’</p>
                                     </v-list-item>
-                                </v-card>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>বৃষ্টিতেও মেলায় ছিল ভিড়</p>
+                                    </v-list-item >
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> অংশগ্রহণ বেড়েছে, অংশীদারত্ব নয়</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>ঋণ খেলাপের দায় আমানতকারীদের ঘাড়ে</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> চট্টগ্রাম বিশ্ববিদ্যালয়-ঘেরা অরণ্য </p>
+                                    </v-list-item>
+                                    <v-list-item class="listLast">
+                                        <p class="red--text">আরও</p>
+                                    </v-list-item>
+                                </v-list>
 
                             </div>
                         </li>
@@ -65,13 +49,32 @@
                                 role="tab" 
                                 aria-selected="false" 
                                 aria-controls="panel2" 
-                                tabindex="0">Specification</label>
+                                tabindex="0">আলোচিত</label>
                             <div id="tab-content2" 
                                 class="tab-content"
                                 role="tabpanel" 
                                 aria-labelledby="specification" 
                                 aria-hidden="true">
-                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                                <v-list class="pa-0" color="#F6F6F6">
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>ওয়ারেন বাফেট এত দিনে ‘স্মার্ট’</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>বৃষ্টিতেও মেলায় ছিল ভিড়</p>
+                                    </v-list-item >
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> অংশগ্রহণ বেড়েছে, অংশীদারত্ব নয়</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>ঋণ খেলাপের দায় আমানতকারীদের ঘাড়ে</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> চট্টগ্রাম বিশ্ববিদ্যালয়-ঘেরা অরণ্য </p>
+                                    </v-list-item>
+                                    <v-list-item class="listLast">
+                                        <p class="red--text">আরও</p>
+                                    </v-list-item>
+                                </v-list>
                             </div>
                         </li>
 
@@ -81,22 +84,191 @@
                                 role="tab" 
                                 aria-selected="false" 
                                 aria-controls="panel2" 
-                                tabindex="0">Specification</label>
+                                tabindex="0">নির্বাচিত</label>
                             <div id="tab-content2" 
                                 class="tab-content"
                                 role="tabpanel" 
                                 aria-labelledby="specification" 
                                 aria-hidden="true">
-                            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                                <v-list class="pa-0" color="#F6F6F6">
+                                   <v-list-item class="Shobcheyelist">
+                                        <p>ওয়ারেন বাফেট এত দিনে ‘স্মার্ট’</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>বৃষ্টিতেও মেলায় ছিল ভিড়</p>
+                                    </v-list-item >
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> অংশগ্রহণ বেড়েছে, অংশীদারত্ব নয়</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p>ঋণ খেলাপের দায় আমানতকারীদের ঘাড়ে</p>
+                                    </v-list-item>
+                                    <v-list-item class="Shobcheyelist">
+                                        <p> চট্টগ্রাম বিশ্ববিদ্যালয়-ঘেরা অরণ্য </p>
+                                    </v-list-item>
+                                    <v-list-item class="listLast">
+                                        <p class="red--text">আরও</p>
+                                    </v-list-item>
+                                </v-list>
                             </div>
                         </li>
                     </ul>
-                
             </v-col>
 
 
             <v-col md="8">
                 <h2>বাংলাদেশ</h2>
+                <!-- inputfield -->
+                <v-row >
+                    <v-col class="py-0 px-1" sm="4">
+                        <v-overflow-btn
+                        class="py-0 px-1"
+                        :items="dropdown_font"
+                        label="Overflow Btn"
+                        target="#dropdown-example"
+                        ></v-overflow-btn>
+                    </v-col>
+                    <v-col class="py-0 px-1" sm="4">
+
+                        <v-overflow-btn
+                        class="py-0 px-1"
+                        :items="dropdown_font"
+                        label="Overflow Btn"
+                        target="#dropdown-example"
+                        ></v-overflow-btn>
+                    </v-col>
+                    <v-col class="py-0 px-1" sm="3">
+
+                        <v-overflow-btn
+                        class="py-0 px-1"
+                        :items="dropdown_font"
+                        label="Overflow Btn"
+                        target="#dropdown-example"
+                        ></v-overflow-btn>
+                    </v-col>
+                    <v-col class="py-1 px-1" sm="1">
+                            <v-btn color="#0091EA" dark large>
+                                <v-icon>mdi-magnify</v-icon>
+                            </v-btn>
+                    </v-col>
+                    
+                </v-row> 
+                <v-row>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                    </v-col>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                        </v-col>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                        </v-col>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                        </v-col>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                        </v-col>
+                    <v-col md="6">
+                        <v-card
+                        class="mx-auto"
+                        max-width="344"
+                        outlined
+                        >
+                            <v-list-item three-line>
+
+                                    <v-list-item-avatar
+                                    tile
+                                    size="80"
+                                    color="grey"
+                                    ></v-list-item-avatar>              
+                                    <v-list-item-content>
+                                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                                    </v-list-item-content>
+                            </v-list-item>
+                        </v-card>
+                        </v-col>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
@@ -106,6 +278,7 @@
 export default {
     data:()=>({
         currentTab: 1,
+        dropdown_font: ['Arial', 'Calibri', 'Courier', 'Verdana'],
     }),
     methods:{
         changeTab(change){
@@ -162,9 +335,9 @@ export default {
         }
         .tabs label {
         display: block;
-        padding: 17px 24px;
+        padding: 17px 42.6px;
         border-radius: 2px 2px 0 0;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: normal;
         text-transform: uppercase;
         background: #E7E8E1;
@@ -186,7 +359,6 @@ export default {
         width: 100%;
         font-size: 17px;
         line-height: 25px;
-        padding: 25px;
         position: absolute;
         top: 53px;
         left: 0;
@@ -200,6 +372,21 @@ export default {
         }
         .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
         display: block;
+        }
+        .Shobcheyelist{
+            border-bottom: 1px solid #CCCCCC;
+            background-color: #f6f6f600;
+            cursor: pointer;
+        }
+        .Shobcheyelist:hover{
+            background-color: white;
+        }
+        .listLast{
+            display: block;
+            position: relative;
+            top: 17px;
+            text-align: center;
+            cursor: pointer;
         }
 
 </style>
