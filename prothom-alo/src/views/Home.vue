@@ -6,6 +6,10 @@
     <Binodon/>
     <Motamot/>
     <ChobiVideo/>
+    <Adhuna/>
+    <Antorjatik/>
+    <Arthoniti/>
+    <AppStor/>
   </div>
 </template>
 
@@ -17,6 +21,10 @@ import Khela from '@/components/KhelaSec.vue'
 import Binodon from '@/components/binodonSec.vue'
 import Motamot from '@/components/MotamotSec.vue'
 import ChobiVideo from '@/components/VideoSec.vue'
+import Adhuna from '@/components/AdhunaSec.vue'
+import Antorjatik from '@/components/AntorjatikSec.vue'
+import Arthoniti from '@/components/ArthonitiSec.vue'
+import AppStor from '@/components/AppStorSec.vue'
 
 export default {
   name: 'Home',
@@ -26,7 +34,11 @@ export default {
     Khela,
     Binodon,
     Motamot,
-    ChobiVideo
+    ChobiVideo,
+    Adhuna,
+    Antorjatik,
+    Arthoniti,
+    AppStor
   }
 }
 </script>

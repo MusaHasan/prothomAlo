@@ -50,8 +50,8 @@ export default {
 
 <style>
     @media (min-width: 1264px){
-    .container {
-        max-width: 1218px;
+        .v-toolbar__content, .v-toolbar__extension {
+            padding: 4px 64px !important;
         }
     }
 .logo{
@@ -68,7 +68,7 @@ export default {
 .navItem{
     box-shadow: none !important;
     background-color: #f0f8ff00 !important;
-    padding: 0 4.2px !important;
+    padding: 0 5.4px !important;
     min-width: 31px !important;
     height: 60px !important;
     font-size: 13px !important;

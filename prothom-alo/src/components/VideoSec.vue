@@ -1,27 +1,27 @@
 <template>
-  <v-container>
+  <v-container class="background-black">
       <v-row class="Mrow">
           <v-col md="8">
-              <v-row>
-                  <v-col md="4">
-                      
-                      <h3> <v-icon>mdi-camera</v-icon> এক ঝলক (২৬ ফেব্রুয়ারি, ২০২০)</h3>
-                      <vueper-slides fade :touchable="false" :arrows="false" :bullets="false"
-                        ref="vueperslides2">
-                        <vueper-slide
-                        class="slideText"
-                        v-for="(slide, i) in slides"
-                        :key="i"
-                        @click.native="$refs.vueperslides2 && $refs.vueperslides2">
-                            <template v-slot:content>
-                            <div  :style="'background-color: #FFFFFF'">
-                                <p>{{ slide.content }}</p>
-                            </div>
-                            </template>
-                        </vueper-slide>
-                        </vueper-slides>
+              <h2 class="amber--text">ছবি</h2>
+              <v-row class="Background-gray">
+                  <v-col class="pt-0 pb-3" md="4">
+                    <h3 style="color:#336385;"> <v-icon color="indigo lighten-5">mdi-camera</v-icon> <span class="chobi-titel">এক ঝলক (২৬ ফেব্রুয়ারি, ২০২০)</span> </h3>
+                    <vueper-slides fade :touchable="false" :arrows="false" :bullets="false"
+                    ref="vueperslides2">
+                    <vueper-slide
+                    class="slideText"
+                    v-for="(slide, i) in slides"
+                    :key="i"
+                    @click.native="$refs.vueperslides2 && $refs.vueperslides2">
+                        <template v-slot:content>
+                        <div  :style="'background-color: #33333300'">
+                            <p class="white--text chobi-Ptxt">{{ slide.content }}</p>
+                        </div>
+                        </template>
+                    </vueper-slide>
+                    </vueper-slides>
                   </v-col>
-                  <v-col md="8">
+                  <v-col class="py-0 ml-6" md="6">
                       <vueper-slides
                         @slide="$refs.vueperslides2 && $refs.vueperslides2.goToSlide($event.currentSlide.index, { emit: false })"
                         :slide-ratio="1 / 3"
@@ -35,7 +35,79 @@
                     </v-col>
               </v-row>
           </v-col>
-          <v-col md="4"></v-col>
+          <v-col class="background-dark" md="4">
+              <h2 class="amber--text">ভিডিও</h2>
+              <v-row>
+                    <v-card
+                        class="mx-auto transparent"
+                        max-width="400"
+                        outlined
+                        style="border-top: 1px solid #333333 !important;"
+                        >
+                        <v-list-item three-line>
+                            <v-list-item-avatar
+                            tile
+                            size="80"
+                            color="grey"
+                            ></v-list-item-avatar>              
+                            <v-list-item-content>
+                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-card>
+                    <v-card
+                        class="mx-auto transparent"
+                        max-width="400"
+                        outlined
+                        style="border-top: 1px solid #333333 !important;"
+                        >
+                        <v-list-item three-line>
+                            <v-list-item-avatar
+                            tile
+                            size="80"
+                            color="grey"
+                            ></v-list-item-avatar>              
+                            <v-list-item-content>
+                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-card>
+                        <v-card
+                        class="mx-auto transparent"
+                        max-width="400"
+                        outlined
+                        style="border-top: 1px solid #333333 !important;"
+                        >
+                        <v-list-item three-line>
+                            <v-list-item-avatar
+                            tile
+                            size="80"
+                            color="grey"
+                            ></v-list-item-avatar>              
+                            <v-list-item-content>
+                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-card>
+                    <v-card
+                        class="mx-auto transparent"
+                        max-width="400"
+                        outlined
+                        style="border-top: 2px solid #333333 !important;"
+                    >
+                        <v-list-item three-line>
+                            <v-list-item-avatar
+                            tile
+                            size="80"
+                            color="grey"
+                            ></v-list-item-avatar>              
+                            <v-list-item-content>
+                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-card>
+              </v-row>
+          </v-col>
       </v-row>
   </v-container>
 </template>
@@ -82,13 +154,47 @@ export default {
 </script>
 
 <style>
+    .background-black{
+        background-color: #212121;
+    }
+    .vueperslides{
+        height: 222px;
+    }
+    .vueperslides__inner{
+        width: 433px;
+    }
+    .vueperslides__parallax-wrapper{
+        height: 289px;
+        width: 433px;
+    }
     .vueperslides__bullet{
         z-index: 0 !important;
     }
     .vueperslides__parallax-wrapper:before, .vueperslides__parallax-wrapper:after{
         box-shadow: none!important;
     }
-    .slideText .vueperslides__arrows{
-        color: #000!important;
+    .vueperslides__arrow--prev {
+        left: -3.5em!important;
+        font-size: 10px!important;
     }
+    .vueperslides__arrow--next{
+        right: -3.5em!important;
+        font-size: 10px!important;
+    }
+    .chobi-Ptxt{
+        margin-right: 190px;
+        font-size: small;
+    }
+    .background-dark{
+        background-color: #111111 !important;
+    }
+    .Background-gray{
+        background-color: #333333;
+        width: 100%;
+    }
+    .chobi-titel:hover{
+        cursor: pointer;
+        border-bottom: 3px dashed #336385
+    }
+    
 </style>
