@@ -4,6 +4,7 @@
     <v-content >
       <Date/>
       <Body/>
+      <Footer/>
     </v-content>
   </v-app>
 </template>
@@ -12,6 +13,7 @@
 import Date from './components/Date';
 import Navbar from './components/NavBar';
 import Body from './views/Home'
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
   components: {
     Date,
     Navbar,
-    Body
+    Body,
+    Footer
   },
 
   data: () => ({

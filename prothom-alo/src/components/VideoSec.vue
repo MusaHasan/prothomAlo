@@ -1,8 +1,8 @@
 <template>
   <v-container class="background-black">
-      <v-row class="Mrow">
+      <v-row class="Mrow py-8">
           <v-col md="8">
-              <h2 class="amber--text">ছবি</h2>
+              <h2 class="amber--text"><span class="deep-orange--text">I</span> ছবি</h2>
               <v-row class="Background-gray">
                   <v-col class="pt-0 pb-3" md="4">
                     <h3 style="color:#336385;"> <v-icon color="indigo lighten-5">mdi-camera</v-icon> <span class="chobi-titel">এক ঝলক (২৬ ফেব্রুয়ারি, ২০২০)</span> </h3>
@@ -36,76 +36,62 @@
               </v-row>
           </v-col>
           <v-col class="background-dark" md="4">
-              <h2 class="amber--text">ভিডিও</h2>
+              <h2 class="amber--text"> <span class="deep-orange--text">I</span> ভিডিও</h2>
               <v-row>
-                    <v-card
-                        class="mx-auto transparent"
-                        max-width="400"
-                        outlined
-                        style="border-top: 1px solid #333333 !important;"
-                        >
-                        <v-list-item three-line>
+                        <v-list-item style="border-top: 1px solid #333333 !important;">
                             <v-list-item-avatar
                             tile
-                            size="80"
+                            size="60"
+                            min-width="110px"
                             color="grey"
+                            class="ma-1"
                             ></v-list-item-avatar>              
-                            <v-list-item-content>
-                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            <v-list-item-content class="py-0">
+                            <div class=" ml-3 white--text">‘খুব দরকার ছিল এ জয়’</div>
                             </v-list-item-content>
                         </v-list-item>
-                    </v-card>
-                    <v-card
-                        class="mx-auto transparent"
-                        max-width="400"
-                        outlined
-                        style="border-top: 1px solid #333333 !important;"
-                        >
-                        <v-list-item three-line>
+                    
+                        <v-list-item style="border-top: 1px solid #333333 !important;">
                             <v-list-item-avatar
                             tile
-                            size="80"
+                            size="60"
+                            min-width="110px"
                             color="grey"
+                            class="ma-1"
                             ></v-list-item-avatar>              
-                            <v-list-item-content>
-                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            <v-list-item-content class="py-0">
+                            <div class=" ml-3 white--text">‘খুব দরকার ছিল এ জয়’</div>
                             </v-list-item-content>
                         </v-list-item>
-                    </v-card>
-                        <v-card
-                        class="mx-auto transparent"
-                        max-width="400"
-                        outlined
-                        style="border-top: 1px solid #333333 !important;"
-                        >
-                        <v-list-item three-line>
+                    
+                    
+                        <v-list-item style="border-top: 1px solid #333333 !important;">
                             <v-list-item-avatar
                             tile
-                            size="80"
+                            size="60"
+                            min-width="110px"
                             color="grey"
+                            class="ma-1"
                             ></v-list-item-avatar>              
-                            <v-list-item-content>
-                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            <v-list-item-content class="py-0">
+                            <div class=" ml-3 white--text">‘খুব দরকার ছিল এ জয়’</div>
                             </v-list-item-content>
                         </v-list-item>
-                    </v-card>
-                    <v-card
-                        class="mx-auto transparent"
-                        max-width="400"
-                        outlined
-                        style="border-top: 2px solid #333333 !important;"
-                    >
-                        <v-list-item three-line>
+                    
+                    
+                        <v-list-item style="border-top: 1px solid #333333 !important;">
                             <v-list-item-avatar
                             tile
-                            size="80"
+                            size="60"
+                            min-width="110px"
                             color="grey"
+                            class="ma-1"
                             ></v-list-item-avatar>              
-                            <v-list-item-content>
-                            <div class="mb-4 white--text">‘খুব দরকার ছিল এ জয়’</div>
+                            <v-list-item-content class="py-0">
+                            <div class=" ml-3 white--text">‘খুব দরকার ছিল এ জয়’</div>
                             </v-list-item-content>
                         </v-list-item>
-                    </v-card>
+                    
               </v-row>
           </v-col>
       </v-row>
@@ -196,5 +182,6 @@ export default {
         cursor: pointer;
         border-bottom: 3px dashed #336385
     }
+
     
 </style>

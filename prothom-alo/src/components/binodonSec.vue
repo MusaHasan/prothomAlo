@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="bgColor">
       <v-row class="Mrow">
           <v-col>
               <h2>বিনোদন</h2>
@@ -7,6 +7,8 @@
                   <v-card
                     class="mx-auto"
                     max-width="400"
+                    elevation="0"
+                    tile
                     >
                     <v-img
                         class="white--text align-end"
@@ -22,103 +24,69 @@
               </v-row>
           </v-col>
           <v-col>
-              <v-row>
-                  <v-col>
-                      <v-card
-                    class="mx-auto"
-                    max-width="344"
-                    outlined
-                    >
-                        <v-list-item three-line>
-
-                            <v-list-item-avatar
-                            tile
-                            size="80"
-                            color="grey"
-                            ></v-list-item-avatar>              
-                                <v-list-item-content>
-                                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                                </v-list-item-content>
-                            </v-list-item>
-                        </v-card>
-                    </v-col>
-                  <v-col>
-                      <v-card
-                    class="mx-auto"
-                    max-width="344"
-                    outlined
-                    >
-                        <v-list-item three-line>
-
-                            <v-list-item-avatar
-                            tile
-                            size="80"
-                            color="grey"
-                            ></v-list-item-avatar>              
-                                <v-list-item-content>
-                                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                                </v-list-item-content>
-                            </v-list-item>
-                        </v-card>
-                    </v-col>
-                  <v-col>
-                      <v-card
-                    class="mx-auto"
-                    max-width="344"
-                    outlined
-                    >
-                        <v-list-item three-line>
-
-                            <v-list-item-avatar
-                            tile
-                            size="80"
-                            color="grey"
-                            ></v-list-item-avatar>              
-                                <v-list-item-content>
-                                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                                </v-list-item-content>
-                            </v-list-item>
-                        </v-card>
-                    </v-col>
-                  <v-col>
-                      <v-card
-                    class="mx-auto"
-                    max-width="344"
-                    outlined
-                    >
-                        <v-list-item three-line>
-
-                            <v-list-item-avatar
-                            tile
-                            size="80"
-                            color="grey"
-                            ></v-list-item-avatar>              
-                                <v-list-item-content>
-                                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                                </v-list-item-content>
-                            </v-list-item>
-                        </v-card>
-                    </v-col>
+              <v-row class="mt-9 ml-4">
+                   <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+                    <v-list-item-avatar
+                    tile
+                    size="60"
+                    min-width="110px"
+                    color="grey"
+                    class="ma-1"
+                    ></v-list-item-avatar>              
+                    <v-list-item-content class="py-0">
+                    <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                    </v-list-item-content>
+                </v-list-item>
+            
+                <v-list-item class="white" style="border-top: 1px solid #CCCCCC !important;">
+                    <v-list-item-avatar
+                    tile
+                    size="60"
+                    min-width="110px"
+                    color="grey"
+                    class="ma-1"
+                    ></v-list-item-avatar>              
+                    <v-list-item-content class="py-0">
+                    <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                    </v-list-item-content>
+                </v-list-item>
+            
+            
+                <v-list-item class="white" style="border-top: 1px solid #CCCCCC !important;">
+                    <v-list-item-avatar
+                    tile
+                    size="60"
+                    min-width="110px"
+                    color="grey"
+                    class="ma-1"
+                    ></v-list-item-avatar>              
+                    <v-list-item-content class="py-0">
+                    <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                    </v-list-item-content>
+                </v-list-item>
+            
+            
+                <v-list-item class="white" style=" border-top: 1px solid #CCCCCC !important;">
+                    <v-list-item-avatar
+                    tile
+                    size="60"
+                    min-width="110px"
+                    color="grey"
+                    class="ma-1"
+                    ></v-list-item-avatar>              
+                    <v-list-item-content class="py-0">
+                    <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                    </v-list-item-content>
+                </v-list-item> 
               </v-row>
           </v-col>
           <v-col>
-               <v-card
-                    class="mx-auto"
-                    max-width="344"
-                    outlined
-                    >
-                    <v-list-item three-line>
-
-                    <v-list-item-avatar
-                    tile
-                    size="80"
-                    color="grey"
-                    ></v-list-item-avatar>              
-                        <v-list-item-content>
-                        <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                        </v-list-item-content>
-                    </v-list-item>
-                </v-card>
+              <v-img src="https://storage.googleapis.com/production-prothomalo/contents/uploads/media/2020/02/09/eb93e5577b8a19f174af445919202491-5e3f9bee97dfe.png"
+              max-width="300"
+              max-height="100"
+              class="mt-12 ml-4">
+              </v-img>
+               
           </v-col>
       </v-row>
   </v-container>
@@ -139,6 +107,9 @@ export default {
         }
         .Mrow{
         margin: 0 58px;
+        }
+        .bgColor{
+        background-color: #F0F0ED;
         }
     }
 </style>

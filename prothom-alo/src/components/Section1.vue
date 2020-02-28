@@ -14,42 +14,55 @@
           </v-col>
 
           <v-col md="4">
-            <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
-
-                <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
                 ></v-list-item-avatar>              
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-              </v-list-item>
-            </v-card>
-
-            <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
                 <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
-                ></v-list-item-avatar>
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-
-
-              </v-list-item>
-            </v-card>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+                <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            
 
           </v-col>
           
@@ -64,150 +77,190 @@
                 <v-card
                   class="mx-auto"
                   max-width="400"
-                >
+                  elevation="0"
+                  tile
+                  >
                   <v-img
-                    class="white--text align-end"
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                      class="white--text align-end"
+                      height="150px"
+                      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
                   >
                   </v-img>
+                  
                   <v-card-text class="text--primary">
-                    <div> সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা</div>
-                  </v-card-text>
-                   <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
-                </v-card>
-              </v-col>
-              <v-col md="6">
-                <v-card
-                  class="mx-auto"
-                  max-width="400"
-                >
-                  <v-img
-                    class="white--text align-end"
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                  >
-                  </v-img>
-                  <v-card-text class="text--primary">
-                    <div> সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা</div>
-                  </v-card-text>
-                   <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
-                </v-card>
-              </v-col>
-              <v-col md="6">
-                <v-card
-                  class="mx-auto"
-                  max-width="400"
-                >
-                  <v-img
-                    class="white--text align-end"
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                  >
-                  </v-img>
-                  <v-card-text class="text--primary">
-                    <div> সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা</div>
-                  </v-card-text>
-                   <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
-                </v-card>
-              </v-col>
-              <v-col md="6">
-                <v-card
-                  class="mx-auto"
-                  max-width="400"
-                >
-                  <v-img
-                    class="white--text align-end"
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                  >
-                  </v-img>
-                  <v-card-text class="text--primary">
-                    <div> সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা</div>
+                      <div>
+                          <h4>প্রিয়ন্তির সঙ্গে সাত পাকের বন্ধনে সৌম্য</h4>
+                            সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা
+                            </div>
                   </v-card-text>
                   <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
-                </v-card>
+                  </v-card>
+              </v-col>
+              <v-col md="6">
+                <v-card
+                  class="mx-auto"
+                  max-width="400"
+                  elevation="0"
+                  tile
+                  >
+                  <v-img
+                      class="white--text align-end"
+                      height="150px"
+                      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                  </v-img>
+                  
+                  <v-card-text class="text--primary">
+                      <div>
+                          <h4>প্রিয়ন্তির সঙ্গে সাত পাকের বন্ধনে সৌম্য</h4>
+                            সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা
+                            </div>
+                  </v-card-text>
+                  <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
+                  </v-card>
+              </v-col>
+              <v-col md="6">
+                <v-card
+                  class="mx-auto"
+                  max-width="400"
+                  elevation="0"
+                  tile
+                  >
+                  <v-img
+                      class="white--text align-end"
+                      height="150px"
+                      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                  </v-img>
+                  
+                  <v-card-text class="text--primary">
+                      <div>
+                          <h4>প্রিয়ন্তির সঙ্গে সাত পাকের বন্ধনে সৌম্য</h4>
+                            সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা
+                            </div>
+                  </v-card-text>
+                  <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
+                  </v-card>
+              </v-col>
+              <v-col md="6">
+                <v-card
+                  class="mx-auto"
+                  max-width="400"
+                  elevation="0"
+                  tile
+                  >
+                  <v-img
+                      class="white--text align-end"
+                      height="150px"
+                      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                  </v-img>
+                  
+                  <v-card-text class="text--primary">
+                      <div>
+                          <h4>প্রিয়ন্তির সঙ্গে সাত পাকের বন্ধনে সৌম্য</h4>
+                            সিন্দুকে ২৭ কোটি টাকা, ১ কেজি সোনা, বিদেশি মুদ্রা
+                            </div>
+                  </v-card-text>
+                  <v-card-subtitle class="pb-0">বাংলাদেশ</v-card-subtitle>
+                  </v-card>
               </v-col>
             </v-row>
           </v-col>
 
           <v-col md="4">
-            <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
-
-                <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
                 ></v-list-item-avatar>              
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-              </v-list-item>
-            </v-card>
-
-            <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
                 <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
-                ></v-list-item-avatar>
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                </v-list-item-content>
-              </v-list-item>
-            </v-card>
-                        <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
-
-                <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
                 ></v-list-item-avatar>              
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-              </v-list-item>
-            </v-card>
-
-            <v-card
-              class="mx-auto"
-              max-width="344"
-              outlined
-            >
-              <v-list-item three-line>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
                 <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
-                ></v-list-item-avatar>
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-
-
-              </v-list-item>
-            </v-card>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+                <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
           </v-col>
 
           <v-col md="4">
             <v-card
               class="mx-auto"
               max-width="400"
+              elevation="0"
+              tile
             >
               <v-img
                 class="white--text align-end"
@@ -225,55 +278,54 @@
               </v-card-text>
             </v-card>
 
-            <v-card
-              class="mx-auto"
-              max-width="400"
-              outlined
-            >
-              <v-list-item three-line>
-                <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
                 ></v-list-item-avatar>              
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-              </v-list-item>
-            </v-card>
-
-            <v-card
-              class="mx-auto"
-              max-width="400"
-              outlined
-            >
-              <v-list-item three-line>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
                 <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
-                ></v-list-item-avatar>
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
-                </v-list-item-content>
-              </v-list-item>
-            </v-card>
-            <v-card
-              class="mx-auto"
-              max-width="400"
-              outlined
-            >
-              <v-list-item three-line>
-                <v-list-item-avatar
-                  tile
-                  size="80"
-                  color="grey"
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
                 ></v-list-item-avatar>              
-                <v-list-item-content>
-                  <div class="mb-4">‘খুব দরকার ছিল এ জয়’</div>
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                 </v-list-item-content>
-              </v-list-item>
-            </v-card>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+              <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
+                <v-list-item-avatar
+                tile
+                size="60"
+                min-width="110px"
+                color="grey"
+                class="ma-1"
+                ></v-list-item-avatar>              
+                <v-list-item-content class="py-0">
+                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                </v-list-item-content>
+            </v-list-item>
           </v-col>
         </v-row>
       </v-col>
