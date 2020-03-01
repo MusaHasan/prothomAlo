@@ -15,7 +15,7 @@
                             <v-img
                                 class="white--text align-end"
                                 height="200px"
-                                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                src="../assets/asset 50.webp"
                             >
                             </v-img>
 
@@ -37,7 +37,7 @@
                             <v-img
                                 class="white--text align-end"
                                 height="200px"
-                                src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                                src="../assets/asset 51.webp"
                             >
                             </v-img>
 
@@ -59,7 +59,7 @@
                         <v-img
                             class="white--text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 52.webp"
                         >
                         </v-img>
 

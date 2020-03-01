@@ -13,7 +13,7 @@
                     <v-img
                         class="white--text align-end"
                         height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                        src="../assets/asset 37.webp"
                     >
                     </v-img>
                     <v-card-text class="text--primary">
@@ -32,7 +32,16 @@
                     min-width="110px"
                     color="grey"
                     class="ma-1"
-                    ></v-list-item-avatar>              
+                    >
+                        <v-img
+                            class="white--text align-end"
+                            height="auto"
+                            width="110px"
+                            src="../assets/asset 18.webp"
+                        >
+                        </v-img>
+                    </v-list-item-avatar>
+
                     <v-list-item-content class="py-0">
                     <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                     </v-list-item-content>
@@ -45,7 +54,16 @@
                     min-width="110px"
                     color="grey"
                     class="ma-1"
-                    ></v-list-item-avatar>              
+                    >
+                        <v-img
+                            class="white--text align-end"
+                            height="auto"
+                            width="110px"
+                            src="../assets/asset 38.webp"
+                        >
+                        </v-img>
+                    </v-list-item-avatar>
+                                   
                     <v-list-item-content class="py-0">
                     <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                     </v-list-item-content>
@@ -59,7 +77,16 @@
                     min-width="110px"
                     color="grey"
                     class="ma-1"
-                    ></v-list-item-avatar>              
+                    >
+                        <v-img
+                            class="white--text align-end"
+                            height="auto"
+                            width="110px"
+                            src="../assets/asset 39.webp"
+                        >
+                        </v-img>
+                    </v-list-item-avatar>
+                                   
                     <v-list-item-content class="py-0">
                     <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                     </v-list-item-content>
@@ -73,7 +100,16 @@
                     min-width="110px"
                     color="grey"
                     class="ma-1"
-                    ></v-list-item-avatar>              
+                    >
+                        <v-img
+                            class="white--text align-end"
+                            height="auto"
+                            width="110px"
+                            src="../assets/asset 40.webp"
+                        >
+                        </v-img>
+                    </v-list-item-avatar>
+                                  
                     <v-list-item-content class="py-0">
                     <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
                     </v-list-item-content>

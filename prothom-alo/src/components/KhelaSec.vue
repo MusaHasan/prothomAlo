@@ -14,7 +14,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 32.webp"
                         >
                         </v-img>
                         
@@ -37,7 +37,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 33.webp"
                         >
                         </v-img>
                         
@@ -60,7 +60,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 34.webp"
                         >
                         </v-img>
                         
@@ -83,7 +83,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 16.webp"
                         >
                         </v-img>
                         
@@ -106,7 +106,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 35.webp"
                         >
                         </v-img>
                         
@@ -129,7 +129,7 @@
                         <v-img
                             class="white--text align-end"
                             height="150px"
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src="../assets/asset 36.webp"
                         >
                         </v-img>
                         
