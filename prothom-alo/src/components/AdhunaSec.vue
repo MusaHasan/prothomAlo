@@ -2,7 +2,7 @@
     <v-container>
         <v-row class="Mrow">
             <v-col md="8">
-                <H2>অধুনা</H2>
+                <H2><span class="Shrort-line"> </span> অধুনা</H2>
                 <v-row>
                     <v-col md="4">
                         <v-card
@@ -72,7 +72,7 @@
                 </v-row>
             </v-col>
             <v-col md="4">
-                <h2>ছবির গল্প</h2>
+                <h2><span class="Shrort-line"></span> ছবির গল্প</h2>
                 <v-row class="mt-3">
                     <v-img class="mb-1" src="https://picsum.photos/510/300?random" width="100%" aspect-ratio="1.7"></v-img>
                     <H3>ফুলকপির পাশাপাশি চাষ হচ্ছে ব্রকলিও</H3>
@@ -89,6 +89,11 @@ export default {
 </script>
 
 <style>
+.Shrort-line{
+    padding: 0px 3px;
+    margin-right: 16px;
+    background-color: #D84315;
+}
 @media (min-width: 1264px){
     .container {
       max-width: 100%;

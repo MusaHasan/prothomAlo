@@ -2,7 +2,7 @@
   <v-container class="bgColor">
     <v-row class="Mrow">
       <v-col md="4">
-          <h2>আন্তর্জাতিক</h2>
+          <h2><span class="Shrort-line"></span>আন্তর্জাতিক</h2>
           <v-row height="600px"
           class="mx-1"
           >
@@ -32,7 +32,7 @@
           
       </v-col>
       <v-col md="4">
-          <h2>দূর পরবাস</h2>
+          <h2><span class="Shrort-line"></span> দূর পরবাস</h2>
           <v-row
           class="mx-1"
           >
@@ -62,7 +62,7 @@
          
       </v-col>
       <v-col md="4">
-          <h2>উত্তর আমেরিকা</h2>
+          <h2> <span class="Shrort-line"></span>উত্তর আমেরিকা</h2>
           <v-row height="600px"
             class="mx-1"
           >

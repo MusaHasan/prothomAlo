@@ -2,7 +2,7 @@
   <v-container class="bgColor">
       <v-row class="Mrow">
           <v-col>
-              <h2>বিনোদন</h2>
+              <h2><span class="Shrort-line"></span>বিনোদন</h2>
               <v-row>
                   <v-card
                     class="mx-auto"

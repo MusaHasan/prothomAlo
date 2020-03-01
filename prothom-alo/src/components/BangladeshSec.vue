@@ -2,7 +2,7 @@
     <v-container>
         <v-row class="Mrow">
             <v-col md="4">
-                <h2>সবচেয়ে</h2>
+                <h2><span class="Shrort-line"></span>সবচেয়ে</h2>
                     <ul class="tabs" role="tablist">
                         <li>
                             <input type="radio" name="tabs" id="tab1" checked />
@@ -117,7 +117,7 @@
 
 
             <v-col md="8">
-                <h2>বাংলাদেশ</h2>
+                <h2><span class="Shrort-line"></span>বাংলাদেশ</h2>
                 <!-- inputfield -->
                 <v-row >
                     <v-col class="py-0 px-1" sm="4">

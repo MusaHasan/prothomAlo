@@ -2,7 +2,7 @@
   <v-container>
       <v-row class="Mrow">
           <v-col md="8">
-              <h2>খেলা</h2>
+              <h2><span class="Shrort-line"></span>খেলা</h2>
               <v-row>
                   <v-col md="4">
                         <v-card
@@ -145,7 +145,7 @@
               </v-row>
           </v-col>
           <v-col md="4" class="mt-9">
-              <h2>অনলাইন ভোট</h2>
+              <h2><span class="Shrort-line"></span>অনলাইন ভোট</h2>
                   <v-card
                         class="mx-auto "
                         max-width="344"

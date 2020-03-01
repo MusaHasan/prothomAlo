@@ -1,0 +1,12 @@
+/* @import url('https://fonts.maateen.me/solaiman-lipi/font.css'); */
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+
+/* .v-application{
+    font-family: SolaimanLipi !important;
+} */
+.v-application{
+  font-family: AdorshoLipi !important;
+}
+p{
+  font-family: AdorshoLipi !important;
+}

@@ -3,17 +3,17 @@
     <v-row class="Mrow">
       <v-col>
         <v-row>
-          <v-col md="4">
+          <v-col md="6">
             <v-img
               class="white--text align-end"
-              height="200px"
-              src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+              height="300px"
+              src="../assets/asset 9.webp"
             >
-              <v-card-title>Top 10 Australian beaches</v-card-title>
+              <v-card-title>পায়ের মাংশপেশিতে টান, মাঠ ছাড়লেন লিটন</v-card-title>
             </v-img>
           </v-col>
 
-          <v-col md="4">
+          <v-col md="3">
             <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
               <v-list-item-avatar
                 tile
@@ -23,7 +23,7 @@
                 class="ma-1"
                 ></v-list-item-avatar>              
                 <v-list-item-content class="py-0">
-                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                <div class=" ml-3">কিশোর গ্যাংয়ের সাত গডফাদার কাউন্সিলর প্রার্থী</div>
                 </v-list-item-content>
             </v-list-item>
             <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
@@ -35,7 +35,7 @@
                 class="ma-1"
                 ></v-list-item-avatar>              
                 <v-list-item-content class="py-0">
-                <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
+                <div class=" ml-3">‘এনু-রুপন ব্যাংক’ এবং পাবলিকের পটোল কেনা ও তোলা </div>
                 </v-list-item-content>
             </v-list-item>
             <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
@@ -45,6 +45,7 @@
                 min-width="110px"
                 color="grey"
                 class="ma-1"
+                
                 ></v-list-item-avatar>              
                 <v-list-item-content class="py-0">
                 <div class=" ml-3">‘খুব দরকার ছিল এ জয়’</div>
@@ -66,12 +67,12 @@
 
           </v-col>
           
-          <v-col md="4"></v-col>
+          <v-col md="3"></v-col>
         </v-row>
 
 
         <v-row>
-          <v-col md="4">
+          <v-col md="6">
             <v-row>
               <v-col md="6">
                 <v-card
@@ -168,7 +169,7 @@
             </v-row>
           </v-col>
 
-          <v-col md="4">
+          <v-col md="3">
             <v-list-item class="white" style="border-top: 1px solid #F0F0ED !important;">
               <v-list-item-avatar
                 tile
@@ -255,7 +256,7 @@
             </v-list-item>
           </v-col>
 
-          <v-col md="4">
+          <v-col md="3">
             <v-card
               class="mx-auto"
               max-width="400"
@@ -269,12 +270,8 @@
               >
               </v-img>
 
-              <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
-
               <v-card-text class="text--primary">
-                <div>Whitehaven Beach</div>
-
-                <div>Whitsunday Island, Whitsunday Islands</div>
+                <div><h3>শৌখিন কবুতরের প্রদর্শনী ও প্রতিযোগিতা</h3></div>
               </v-card-text>
             </v-card>
 
@@ -352,6 +349,7 @@
     }
     .bgColor{
       background-color: #F1F1F1;
+      
     }
   }
 

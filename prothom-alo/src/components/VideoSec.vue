@@ -2,7 +2,7 @@
   <v-container class="background-black">
       <v-row class="Mrow py-8">
           <v-col md="8">
-              <h2 class="amber--text"><span class="deep-orange--text">I</span> ছবি</h2>
+              <h2 class="amber--text"><span class="Shrort-line"></span> ছবি</h2>
               <v-row class="Background-gray">
                   <v-col class="pt-0 pb-3" md="4">
                     <h3 style="color:#336385;"> <v-icon color="indigo lighten-5">mdi-camera</v-icon> <span class="chobi-titel">এক ঝলক (২৬ ফেব্রুয়ারি, ২০২০)</span> </h3>
@@ -36,7 +36,7 @@
               </v-row>
           </v-col>
           <v-col class="background-dark" md="4">
-              <h2 class="amber--text"> <span class="deep-orange--text">I</span> ভিডিও</h2>
+              <h2 class="amber--text"> <span class="Shrort-line"></span> ভিডিও</h2>
               <v-row>
                         <v-list-item style="border-top: 1px solid #333333 !important;">
                             <v-list-item-avatar

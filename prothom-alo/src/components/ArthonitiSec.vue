@@ -3,7 +3,7 @@
     <v-row class="Mrow">
 
         <v-col md="3">
-            <h2>অর্থনীতি</h2>
+            <h2><span class="Shrort-line"></span>অর্থনীতি</h2>
             <v-row >
                 <v-list width= "100%" class="pt-0 mx-3" tile>
                     <v-list-item style="border-top: 1px solid #CCCCCC">মিষ্টি যখন দাঁতের জন্য ক্ষতিকর</v-list-item>
@@ -16,7 +16,7 @@
           
         </v-col>
         <v-col md="3">
-            <h2>জীবনযাপন</h2>
+            <h2><span class="Shrort-line"></span>জীবনযাপন</h2>
             <v-row>
               <v-list width= "100%" class="pt-0 mx-3" tile>
                     <v-list-item style="border-top: 1px solid #CCCCCC">মিষ্টি যখন দাঁতের জন্য ক্ষতিকর</v-list-item>
@@ -29,7 +29,7 @@
          
         </v-col>
         <v-col md="3">
-            <h2>বিজ্ঞান ও প্রযুক্তি</h2>
+            <h2><span class="Shrort-line"></span>বিজ্ঞান ও প্রযুক্তি</h2>
             <v-row >
                 <v-list width= "100%" class="pt-0 mx-3" tile>
                     <v-list-item style="border-top: 1px solid #CCCCCC">মিষ্টি যখন দাঁতের জন্য ক্ষতিকর</v-list-item>
@@ -42,7 +42,7 @@
           
         </v-col>
         <v-col md="3">
-            <h2>নাগরিক সংবাদ</h2>
+            <h2><span class="Shrort-line"></span>নাগরিক সংবাদ</h2>
             <v-row >
                 <v-list width= "100%" class="pt-0 mx-3" tile>
                     <v-list-item style="border-top: 1px solid #CCCCCC">মিষ্টি যখন দাঁতের জন্য ক্ষতিকর</v-list-item>

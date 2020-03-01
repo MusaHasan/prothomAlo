@@ -2,7 +2,7 @@
   <v-container>
       <v-row class="Mrow">
           <v-col>
-          <h2>মতামত</h2>
+          <h2><span class="Shrort-line"></span>মতামত</h2>
                 <v-row>
                     <v-col md="3" >
                         <v-alert
