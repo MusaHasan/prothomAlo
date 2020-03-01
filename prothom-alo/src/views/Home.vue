@@ -42,3 +42,12 @@ export default {
   }
 }
 </script>
+
+<style>
+@media only screen and (min-width: 1380px) {
+  .home{
+    padding: 0 5%!important;
+
+  }
+}
+</style>

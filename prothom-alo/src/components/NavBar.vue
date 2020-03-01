@@ -6,7 +6,7 @@
         style="border-bottom: 1px solid #CCCCCC !important;"
     >
         <v-container   
-        class="navbar">
+        class="navbar largeScreen">
             <img class="logo" src="../assets/pLogo.png" alt="">
             
             <v-spacer></v-spacer>
@@ -52,6 +52,12 @@ export default {
     @media (min-width: 1264px){
         .v-toolbar__content, .v-toolbar__extension {
             padding: 4px 64px !important;
+        }
+    }
+    @media (min-width: 1380px){
+        .largeScreen{
+            margin: 0 5%!important;
+
         }
     }
 .logo{

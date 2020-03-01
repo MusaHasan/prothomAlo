@@ -104,4 +104,10 @@ export default {
       margin: 0 58px;
     }
 }
+@media only screen and (min-width: 1380px) {
+  .home{
+    margin: 0 5%!important;
+
+  }
+}
 </style>
